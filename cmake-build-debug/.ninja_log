@@ -1,0 +1,44 @@
+# ninja log v5
+5	94	7358674000183724	turism_qt_autogen/timestamp	b9f21c16fa640800
+5	94	7358674000183724	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+580	2764	7358671448725714	CMakeFiles/turism_qt.dir/turism_qt_autogen/mocs_compilation.cpp.obj	de25ff9bb04bf571
+5	94	7358674000183724	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
+5	94	7358674000183724	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+83	641	7358555977235953	CMakeFiles/turism_qt.dir/domain/Oferta.cpp.obj	8c623725880e5949
+577	2870	7358671449745704	CMakeFiles/turism_qt.dir/main.cpp.obj	8101e8f94f44983f
+2406	2896	7358674026823907	turism_qt.exe	7203eb13e364f7fc
+81	799	7358555978832370	CMakeFiles/turism_qt.dir/domain/validator.cpp.obj	fc746df318aa72ae
+78	1043	7358555981252785	CMakeFiles/turism_qt.dir/repository/AgentieRepo.cpp.obj	31f82b72c2d438d9
+593	1770	7358666813663786	CMakeFiles/turism_qt.dir/ui/console.cpp.obj	79b13f420691bacf
+590	1906	7358666815023797	CMakeFiles/turism_qt.dir/repository/Wishlist.cpp.obj	16ea9c06924ff6a4
+596	2229	7358666818243784	CMakeFiles/turism_qt.dir/service/AgentieRepo.cpp.obj	2aa0fc3e4d4981ee
+710	3245	7358632427351499	CMakeFiles/turism_qt.dir/ui/GUI_lista_butoane.cpp.obj	cad49a5d97c86273
+106	2406	7358674023292737	CMakeFiles/turism_qt.dir/ui/GUI.cpp.obj	d5d25889530cb5cf
+609	2812	7358639215866843	CMakeFiles/turism_qt.dir/cmake-build-debug/.cmake/main.cpp.obj	49647115629633b0
+600	3456	7358666830544044	CMakeFiles/turism_qt.dir/ui/wishlistGUI.cpp.obj	72458cbe0ea0d6ac
+9	775	7358675703453106	turism_qt_autogen/timestamp	b9f21c16fa640800
+9	775	7358675703453106	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+9	775	7358675703453106	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
+9	775	7358675703453106	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+786	1812	7358675714203386	CMakeFiles/turism_qt.dir/ui/console.cpp.obj	79b13f420691bacf
+783	2297	7358675719039820	CMakeFiles/turism_qt.dir/service/AgentieService.cpp.obj	bdb02fa877e5a4c4
+778	3336	7358675729457907	CMakeFiles/turism_qt.dir/turism_qt_autogen/mocs_compilation.cpp.obj	de25ff9bb04bf571
+776	3429	7358675730388474	CMakeFiles/turism_qt.dir/main.cpp.obj	8101e8f94f44983f
+789	3464	7358675730738483	CMakeFiles/turism_qt.dir/ui/wishlistGUI.cpp.obj	72458cbe0ea0d6ac
+781	3697	7358675733057320	CMakeFiles/turism_qt.dir/ui/GUI.cpp.obj	d5d25889530cb5cf
+3697	4186	7358675736617300	turism_qt.exe	d0ffb1e94cc1e81b
+8	672	7358677990699459	turism_qt_autogen/timestamp	b9f21c16fa640800
+8	672	7358677990699459	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+8	672	7358677990699459	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
+8	672	7358677990699459	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+680	2432	7358678008656633	CMakeFiles/turism_qt.dir/service/AgentieService.cpp.obj	bdb02fa877e5a4c4
+673	3470	7358678019106974	CMakeFiles/turism_qt.dir/turism_qt_autogen/mocs_compilation.cpp.obj	de25ff9bb04bf571
+675	3498	7358678019376974	CMakeFiles/turism_qt.dir/main.cpp.obj	8101e8f94f44983f
+678	3838	7358678022776221	CMakeFiles/turism_qt.dir/ui/GUI.cpp.obj	d5d25889530cb5cf
+3838	4362	7358678026626605	turism_qt.exe	d0ffb1e94cc1e81b
+5	95	7358680276485567	turism_qt_autogen/timestamp	b9f21c16fa640800
+5	95	7358680276485567	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+5	95	7358680276485567	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
+5	95	7358680276485567	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+107	2226	7358680297788394	CMakeFiles/turism_qt.dir/ui/wishlistGUI.cpp.obj	72458cbe0ea0d6ac
+2227	2722	7358680301363570	turism_qt.exe	d0ffb1e94cc1e81b

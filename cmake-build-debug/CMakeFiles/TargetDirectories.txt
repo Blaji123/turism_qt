@@ -1,0 +1,5 @@
+C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/CMakeFiles/turism_qt.dir
+C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/CMakeFiles/turism_qt_autogen_timestamp_deps.dir
+C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/CMakeFiles/turism_qt_autogen.dir

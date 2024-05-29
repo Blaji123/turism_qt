@@ -8,6 +8,7 @@
 
 void Wishlist::clearCart() {
     cart.clear();
+    notify();
 }
 
 void Wishlist::addCart(const string& denumire) {
@@ -22,6 +23,7 @@ void Wishlist::addCart(const string& denumire) {
     }else{
         throw RepositoryException("item deosnt exist");
     }
+    notify();
 }
 
 void Wishlist::fillCart(const int numberOfOferte) {
@@ -38,6 +40,7 @@ void Wishlist::fillCart(const int numberOfOferte) {
             std::shuffle(oferte.begin(), oferte.end(), std::default_random_engine(std::random_device{}()));
         }
     }
+    notify();
 }
 
 void Wishlist::exportToHtml(const std::string &filename) {

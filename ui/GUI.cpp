@@ -105,16 +105,37 @@ void GUI::initGuiCmps() {
     verticalRightLayout->addWidget(windowButtons);
 
     btn1 = new QPushButton("UNDO");
-    btn2 = new QPushButton("Wishlist");
+    btn2 = new QPushButton("WishlistCRUDGUI");
+    btn4 = new QPushButton("WishReadOnlyGUI");
     btn3 = new QPushButton("Find By Denumire");
+
+    txtDenumireCos = new QLineEdit;
+    btnAdaugaCos = new QPushButton("Add Cos");
+    btnClearCos = new QPushButton("Clear Cos");
+    nr_cos = new QLineEdit;
+    btnGenerareCos = new QPushButton("Generate Cos");
+
+    auto* windowCosButtons = new QWidget;
+    auto* hboxCos = new QHBoxLayout(windowCosButtons);
+    windowCosButtons->setLayout(hboxCos);
+    hboxCos->addWidget(txtDenumireCos);
+    hboxCos->addWidget(btnAdaugaCos);
+    hboxCos->addWidget(btnClearCos);
+    hboxCos->addWidget(nr_cos);
+    hboxCos->addWidget(btnGenerareCos);
+    verticalRightLayout->addWidget(windowCosButtons);
 
     auto* windowButtons2 = new QWidget;
     auto* hbox4 = new QHBoxLayout(windowButtons2);
     windowButtons2->setLayout(hbox4);
     hbox4->addWidget(btn1);
     hbox4->addWidget(btn2);
+    hbox4->addWidget(btn4);
     hbox4->addWidget(btn3);
     verticalRightLayout->addWidget(windowButtons2);
+
+    dynamicButtonsLayout = new QHBoxLayout();
+    verticalRightLayout->addLayout(dynamicButtonsLayout);
 
     verticalRightLayout->addStretch();
 
@@ -181,8 +202,25 @@ void GUI::connectSignalSlots() {
     QObject::connect(btn3, &QPushButton::clicked, this, [&](){
         findGUI();
     });
+    QObject::connect(btn4, &QPushButton::clicked, this, [&](){
+       auto* figuresWindow = new HistogramGUI(this->wishlist);
+       figuresWindow->show();
+    });
     QObject::connect(btn0, &QPushButton::clicked, this, [&](){
         refreshGUI();
+    });
+    QObject::connect(btnAdaugaCos, &QPushButton::clicked, this, [&]() {
+        try {
+            wishlist.addCart(agentieService.findService(txtDenumireCos->text().toStdString()).getDenumire());
+        } catch (RepositoryException &ex) {
+            QMessageBox::warning(this, "warning!", QString::fromStdString(ex.what()));
+        }
+    });
+    QObject::connect(btnClearCos, &QPushButton::clicked, this, [&]() {
+        wishlist.clearCart();
+    });
+    QObject::connect(btnGenerareCos, &QPushButton::clicked, this, [&]() {
+        wishlist.fillCart(nr_cos->text().toInt());
     });
 }
 
@@ -205,6 +243,7 @@ void GUI::addGUI() {
     try{
         this->agentieService.addService(txtdenumire->text().toStdString(), txtdestinatie->text().toStdString(), txttip->text().toStdString(), txtpret->text().toInt());
         reloadList(agentieService.getAll());
+        updateDestinatieButtons();
     }catch (RepositoryException& ex){
         QMessageBox::warning(this, "warning!", QString::fromStdString(ex.what()));
     }catch (ValidatorException& ex){
@@ -216,6 +255,7 @@ void GUI::removeGUI(){
     try{
         this->agentieService.deleteService(txtdenumire->text().toStdString());
         reloadList(agentieService.getAll());
+        updateDestinatieButtons();
     }catch (RepositoryException& ex){
         QMessageBox::warning(this, "warning!", QString::fromStdString(ex.what()));
     }
@@ -286,7 +326,32 @@ void GUI::exportHTMLGUI() {
 }
 
 void GUI::wishlistGUI1() {
-    qDebug("wishlist creat\n");
-    auto* wsh = new wishlistGUI{this->agentieService, this->wishlist};
+    auto* wsh = new WishlistGuiTabel{this->agentieService, this->wishlist};
     wsh->show();
+}
+
+void GUI::updateDestinatieButtons() {
+    // Clear existing buttons
+    for (auto& pair : destinatieButtons) {
+        dynamicButtonsLayout->removeWidget(pair.second);
+        delete pair.second;
+    }
+    destinatieButtons.clear();
+
+    // Get the current "Destinatie" counts
+    auto destinatieCounts = agentieService.getElementsForDestinatie();
+
+    // Create buttons for each "Destinatie"
+    for (const auto& pair : destinatieCounts) {
+        const string& destinatie = pair.first;
+        int count = pair.second;
+
+        auto* btn = new QPushButton(QString::fromStdString(destinatie + ": " + std::to_string(count)));
+        dynamicButtonsLayout->addWidget(btn);
+        destinatieButtons[destinatie] = btn;
+
+        QObject::connect(btn, &QPushButton::clicked, this, [destinatie, count]() {
+            QMessageBox::information(nullptr, "Destinatie Count", QString::fromStdString("There are " + std::to_string(count) + " offers for " + destinatie));
+        });
+    }
 }

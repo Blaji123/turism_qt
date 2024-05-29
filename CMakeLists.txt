@@ -33,7 +33,8 @@ add_executable(turism_qt main.cpp
         ui/GUI.cpp
         ui/wishlistGUI.h
         ui/Observer.h
-        ui/wishlistGUI.cpp)
+        ui/wishlistGUI.cpp
+        ui/TableModel.h)
 target_link_libraries(turism_qt
         Qt::Core
         Qt::Gui

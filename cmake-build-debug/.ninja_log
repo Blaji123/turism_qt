@@ -1,44 +1,68 @@
 # ninja log v5
-5	94	7358674000183724	turism_qt_autogen/timestamp	b9f21c16fa640800
-5	94	7358674000183724	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
-580	2764	7358671448725714	CMakeFiles/turism_qt.dir/turism_qt_autogen/mocs_compilation.cpp.obj	de25ff9bb04bf571
-5	94	7358674000183724	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
-5	94	7358674000183724	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+15	243	7379729218490378	turism_qt_autogen/timestamp	b9f21c16fa640800
+15	243	7379729218490378	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+929	4369	7379314998167321	CMakeFiles/turism_qt.dir/turism_qt_autogen/mocs_compilation.cpp.obj	de25ff9bb04bf571
+15	243	7379729218490378	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
 83	641	7358555977235953	CMakeFiles/turism_qt.dir/domain/Oferta.cpp.obj	8c623725880e5949
-577	2870	7358671449745704	CMakeFiles/turism_qt.dir/main.cpp.obj	8101e8f94f44983f
-2406	2896	7358674026823907	turism_qt.exe	7203eb13e364f7fc
+15	243	7379729218490378	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+935	4413	7379314998627306	CMakeFiles/turism_qt.dir/main.cpp.obj	8101e8f94f44983f
+7619	9106	7379729303528111	turism_qt.exe	d0ffb1e94cc1e81b
 81	799	7358555978832370	CMakeFiles/turism_qt.dir/domain/validator.cpp.obj	fc746df318aa72ae
-78	1043	7358555981252785	CMakeFiles/turism_qt.dir/repository/AgentieRepo.cpp.obj	31f82b72c2d438d9
-593	1770	7358666813663786	CMakeFiles/turism_qt.dir/ui/console.cpp.obj	79b13f420691bacf
-590	1906	7358666815023797	CMakeFiles/turism_qt.dir/repository/Wishlist.cpp.obj	16ea9c06924ff6a4
+665	2048	7379249327585085	CMakeFiles/turism_qt.dir/repository/AgentieRepo.cpp.obj	31f82b72c2d438d9
+677	1966	7379249326755099	CMakeFiles/turism_qt.dir/ui/console.cpp.obj	79b13f420691bacf
+671	2347	7379249330575107	CMakeFiles/turism_qt.dir/repository/Wishlist.cpp.obj	16ea9c06924ff6a4
 596	2229	7358666818243784	CMakeFiles/turism_qt.dir/service/AgentieRepo.cpp.obj	2aa0fc3e4d4981ee
 710	3245	7358632427351499	CMakeFiles/turism_qt.dir/ui/GUI_lista_butoane.cpp.obj	cad49a5d97c86273
-106	2406	7358674023292737	CMakeFiles/turism_qt.dir/ui/GUI.cpp.obj	d5d25889530cb5cf
+280	7618	7379729292171436	CMakeFiles/turism_qt.dir/ui/GUI.cpp.obj	d5d25889530cb5cf
 609	2812	7358639215866843	CMakeFiles/turism_qt.dir/cmake-build-debug/.cmake/main.cpp.obj	49647115629633b0
-600	3456	7358666830544044	CMakeFiles/turism_qt.dir/ui/wishlistGUI.cpp.obj	72458cbe0ea0d6ac
-9	775	7358675703453106	turism_qt_autogen/timestamp	b9f21c16fa640800
-9	775	7358675703453106	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
-9	775	7358675703453106	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
-9	775	7358675703453106	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
-786	1812	7358675714203386	CMakeFiles/turism_qt.dir/ui/console.cpp.obj	79b13f420691bacf
-783	2297	7358675719039820	CMakeFiles/turism_qt.dir/service/AgentieService.cpp.obj	bdb02fa877e5a4c4
-778	3336	7358675729457907	CMakeFiles/turism_qt.dir/turism_qt_autogen/mocs_compilation.cpp.obj	de25ff9bb04bf571
-776	3429	7358675730388474	CMakeFiles/turism_qt.dir/main.cpp.obj	8101e8f94f44983f
-789	3464	7358675730738483	CMakeFiles/turism_qt.dir/ui/wishlistGUI.cpp.obj	72458cbe0ea0d6ac
-781	3697	7358675733057320	CMakeFiles/turism_qt.dir/ui/GUI.cpp.obj	d5d25889530cb5cf
-3697	4186	7358675736617300	turism_qt.exe	d0ffb1e94cc1e81b
-8	672	7358677990699459	turism_qt_autogen/timestamp	b9f21c16fa640800
-8	672	7358677990699459	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
-8	672	7358677990699459	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
-8	672	7358677990699459	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
-680	2432	7358678008656633	CMakeFiles/turism_qt.dir/service/AgentieService.cpp.obj	bdb02fa877e5a4c4
-673	3470	7358678019106974	CMakeFiles/turism_qt.dir/turism_qt_autogen/mocs_compilation.cpp.obj	de25ff9bb04bf571
-675	3498	7358678019376974	CMakeFiles/turism_qt.dir/main.cpp.obj	8101e8f94f44983f
-678	3838	7358678022776221	CMakeFiles/turism_qt.dir/ui/GUI.cpp.obj	d5d25889530cb5cf
-3838	4362	7358678026626605	turism_qt.exe	d0ffb1e94cc1e81b
-5	95	7358680276485567	turism_qt_autogen/timestamp	b9f21c16fa640800
-5	95	7358680276485567	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
-5	95	7358680276485567	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
-5	95	7358680276485567	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
-107	2226	7358680297788394	CMakeFiles/turism_qt.dir/ui/wishlistGUI.cpp.obj	72458cbe0ea0d6ac
-2227	2722	7358680301363570	turism_qt.exe	d0ffb1e94cc1e81b
+146	204	7379324008625944	CMakeFiles/turism_qt.dir/ui/wishlistGUI.cpp.obj	72458cbe0ea0d6ac
+688	2678	7379249333865106	CMakeFiles/turism_qt.dir/service/AgentieService.cpp.obj	bdb02fa877e5a4c4
+12	1474	7379730275412661	turism_qt_autogen/timestamp	b9f21c16fa640800
+12	1474	7379730275412661	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+12	1474	7379730275412661	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
+12	1474	7379730275412661	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+1475	7433	7379730335919743	CMakeFiles/turism_qt.dir/turism_qt_autogen/mocs_compilation.cpp.obj	de25ff9bb04bf571
+1495	7596	7379730337550372	CMakeFiles/turism_qt.dir/main.cpp.obj	8101e8f94f44983f
+1503	9350	7379730355029794	CMakeFiles/turism_qt.dir/ui/GUI.cpp.obj	d5d25889530cb5cf
+9350	10854	7379730366560389	turism_qt.exe	d0ffb1e94cc1e81b
+28	394	7386784048107055	turism_qt_autogen/timestamp	b9f21c16fa640800
+28	394	7386784048107055	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+28	394	7386784048107055	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
+28	394	7386784048107055	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+434	8379	7386784127930714	CMakeFiles/turism_qt.dir/ui/GUI.cpp.obj	d5d25889530cb5cf
+8379	10372	7386784143260698	turism_qt.exe	d0ffb1e94cc1e81b
+22	298	7386786282320153	turism_qt_autogen/timestamp	b9f21c16fa640800
+22	298	7386786282320153	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+22	298	7386786282320153	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
+22	298	7386786282320153	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+330	6907	7386786348353138	CMakeFiles/turism_qt.dir/ui/GUI.cpp.obj	d5d25889530cb5cf
+23	260	7386786602670256	turism_qt_autogen/timestamp	b9f21c16fa640800
+23	260	7386786602670256	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+23	260	7386786602670256	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
+23	260	7386786602670256	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+286	6325	7386786663282828	CMakeFiles/turism_qt.dir/ui/wishlistGUI.cpp.obj	72458cbe0ea0d6ac
+6327	7632	7386786672943107	turism_qt.exe	d0ffb1e94cc1e81b
+31	292	7386788002277124	turism_qt_autogen/timestamp	b9f21c16fa640800
+31	292	7386788002277124	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+31	292	7386788002277124	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
+31	292	7386788002277124	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+324	439	7386788003744178	CMakeFiles/turism_qt.dir/ui/wishlistGUI.cpp.obj	72458cbe0ea0d6ac
+316	7404	7386788073329157	CMakeFiles/turism_qt.dir/ui/GUI.cpp.obj	d5d25889530cb5cf
+7405	8783	7386788083914599	turism_qt.exe	d0ffb1e94cc1e81b
+22	276	7386791003834884	turism_qt_autogen/timestamp	b9f21c16fa640800
+22	276	7386791003834884	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+22	276	7386791003834884	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
+22	276	7386791003834884	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+24	299	7386791513042459	turism_qt_autogen/timestamp	b9f21c16fa640800
+24	299	7386791513042459	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+24	299	7386791513042459	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
+24	299	7386791513042459	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+339	7390	7386791583879442	CMakeFiles/turism_qt.dir/ui/GUI.cpp.obj	d5d25889530cb5cf
+7391	8733	7386791594025953	turism_qt.exe	d0ffb1e94cc1e81b
+22	294	7386796080220893	turism_qt_autogen/timestamp	b9f21c16fa640800
+22	294	7386796080220893	turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+22	294	7386796080220893	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/timestamp	b9f21c16fa640800
+22	294	7386796080220893	C:/Users/Blajan David/faculta/sem 2-oop/turism-qt/cmake-build-debug/turism_qt_autogen/mocs_compilation.cpp	b9f21c16fa640800
+321	2552	7386796102798373	CMakeFiles/turism_qt.dir/repository/Wishlist.cpp.obj	16ea9c06924ff6a4
+328	6934	7386796146569880	CMakeFiles/turism_qt.dir/ui/GUI.cpp.obj	d5d25889530cb5cf
+6935	8336	7386796157186299	turism_qt.exe	d0ffb1e94cc1e81b

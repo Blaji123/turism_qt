@@ -3,7 +3,6 @@
 #include "repository/AgentieRepo.h"
 #include "repository/Wishlist.h"
 #include "service/AgentieService.h"
-#include "ui/console.h"
 #include "domain/validator.h"
 #include "ui/GUI.h"
 
@@ -15,13 +14,14 @@ void runAllTests(){
 }
 
 int main(int argc, char *argv[]) {
+    runAllTests();
     QApplication app(argc, argv);
     AgentieRepoFile repo{"oferte.txt"};
     Wishlist wishlist{repo};
     AgentieService service{repo, wishlist};
 
     GUI gui{service, wishlist};
-    return app.exec();
+    return QApplication::exec();
 }
 
 //int main() {

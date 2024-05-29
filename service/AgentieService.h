@@ -127,7 +127,7 @@ public:
     void exportWishlistToHtml(const string& filename);
     unsigned long long wishlistSize();
     void serviceUndo();
-    std::unordered_map<string, vector<string>> getElementsForDestinatie();
+    std::unordered_map<string, int> getElementsForDestinatie();
 };
 //functie pentru teste din service
 void testeService();

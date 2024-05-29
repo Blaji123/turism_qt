@@ -118,15 +118,7 @@ void Console::exportWishlistToHtmlUi() {
     }
 }
 
-void Console::getElementsByDestinatieUi() {
-    std::unordered_map<string, vector<string>> rez = service.getElementsForDestinatie();
-    for (auto &it: rez) {
-        cout << it.first << ":";
-        for (auto &oferte: it.second)
-            cout << oferte << " ";
-        cout<<std::endl;
-    }
-}
+//
 //function pentru a incepe aplicatia
 void Console::start() {
     while(true){
@@ -228,9 +220,9 @@ void Console::start() {
                         cout<<e.what()<<" ";
                     }
                     break;
-                case 16:
-                    getElementsByDestinatieUi();
-                    break;
+//                case 16:
+//                    getElementsByDestinatieUi();
+//                    break;
                 default:
                     cout<<"Comanda invalida\n";
             }

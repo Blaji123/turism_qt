@@ -153,6 +153,7 @@ C:/Users/Blajan\ David/faculta/sem\ 2-oop/turism-qt/cmake-build-debug/turism_qt_
   C:/Qt/6.7.0/mingw_64/include/QtGui/qvalidator.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QHBoxLayout \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLineEdit \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QListWidget \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QPushButton \
@@ -163,7 +164,11 @@ C:/Users/Blajan\ David/faculta/sem\ 2-oop/turism-qt/cmake-build-debug/turism_qt_
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractslider.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractspinbox.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qboxlayout.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qframe.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qgridlayout.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlayout.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlayoutitem.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlineedit.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlistview.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlistwidget.h \

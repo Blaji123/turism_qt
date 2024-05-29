@@ -191,11 +191,11 @@ void AgentieService::serviceUndo() {
     undo.pop_back();
 }
 
-std::unordered_map<string, vector<string>> AgentieService::getElementsForDestinatie() {
+std::unordered_map<string, int> AgentieService::getElementsForDestinatie() {
     vector<Oferta> oferte = repo.getAll();
-    std::unordered_map<string, vector<string>> map;
+    std::unordered_map<string, int> map;
     for (const auto &oferta: oferte) {
-        map[oferta.getDestinatie()].push_back(oferta.getDenumire());
+        map[oferta.getDestinatie()]++;
     }
     return map;
 }
